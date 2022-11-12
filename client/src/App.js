@@ -60,6 +60,7 @@ function App() {
   }
 
   const restartGame = () => {
+    console.log('Resetting Board')
     setBoard(['', '', '', '', '', '', '', '', ''])
     setPlayer('O')
     setResult({ winner: '', state: '' })
